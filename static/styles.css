@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green: #98FBCB;
+  --ice-blue: #ABD1F3;
+  --coral: #FDF7A8;
+}
+
+
+/*Header section*/
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--green);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header h1 {
+  font-size: 50px;
+  display: flex;
+  margin: auto 0 auto 0;
+}
+nav {
+  margin: auto 0 auto 0;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vw;
+  font-size: 35px;
+  font-weight: bold;
+  list-style: none;
+}
+
+/*Welcome Section*/
+#welcome-section h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 75px;
+  font-size: 50px;
+}
+
+#welcome-section h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+#welcome-section {
+  height: 110vh;
+  background-color: var(--ice-blue);
+}
+
+.bio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.About-Me {
+  width: 20vw;
+}
+.About-Me p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.coding-experience {
+  width: 20vw;
+}
+.coding-experience ul {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.noncoding-experience {
+  width: 20vw;
+}
+.noncoding-experience ul {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hobbies {
+  width: 20vw;
+}
+.hobbies ul {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*Projects*/
+
+#projects {
+  background-color: var(--coral);
+}
+
+.project-title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.project-tile {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-tile div h3 {
+  text-align: center;
+}
+
+.preview {
+  height: 250px;
+  width: 400px;
+  padding-bottom: 40px;
+}
+
+/* Links */
+footer {
+  height: 250px;
+  background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-header {
+  font-size: 60px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+/*media*/
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 35px;
+  }
+}
